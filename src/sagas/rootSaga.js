@@ -3,6 +3,6 @@ import { watchFetchMovies } from "./movieSagas";
 
 export default function* rootSaga() {
   yield all([
-    watchFetchMovies(), // Start your movie saga
+    watchFetchMovies(), 
   ]);
 }
