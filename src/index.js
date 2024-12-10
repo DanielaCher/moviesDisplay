@@ -16,7 +16,7 @@ root.render(
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/movie/:movieId" element={<MovieDetails />} />{" "}
-          {/* Route for movie details */}
+      
         </Routes>
       </Provider>
     </BrowserRouter>
